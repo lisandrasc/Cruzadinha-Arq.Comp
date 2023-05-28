@@ -1,0 +1,95 @@
+body {
+    border: 0;
+    margin: 5;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(mostrinhos.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: white;
+}
+
+.quadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.linha {
+    display: flex;
+    margin-top: 8px;
+    width: fit-content;
+}
+
+.quadradinho {
+    height: 35px;
+    width: 40px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.verde {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: rgb(13, 255, 13) solid 2px;
+    background-color: rgb(139, 255, 139);
+    text-transform: uppercase;
+}
+
+.vermelho {
+    border-color: rgb(255, 0, 0) solid;
+    background-color: rgb(255, 120, 120);
+}
+
+.transparente {
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: bold;
+    justify-content: end;
+}
+
+.b {
+    justify-content: center;
+    align-items: end;
+}
+
+.inputLetra {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: black solid 2px;
+    text-transform: uppercase;
+}
+
+.legenda {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
